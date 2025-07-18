@@ -22,4 +22,4 @@ async def ping(ctx):
     await ctx.send('Pong!')
 
 # Token do bot (use variável de ambiente)
-bot.run(os.getenv("1c72237c305b18e844aae633b9f7f6b10b0b82010d351220cde8f5a8ac3bf288"))
+bot.run(os.getenv('DISCORD_TOKEN'))
